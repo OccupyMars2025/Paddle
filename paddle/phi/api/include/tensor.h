@@ -183,7 +183,7 @@ class PADDLE_API Tensor final {
    * @note: This method means Reset the shape of the tensor,
    * and must be called before calling mutable_data() or
    * copy_to(const Place& place), this is not a standard definition of
-   * reshape behavior, so we will deprecated this feature in the future.
+   * reshape behavior, so we will deprecate this feature in the future.
    *
    * @param shape
    */
